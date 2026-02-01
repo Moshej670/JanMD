@@ -139,3 +139,8 @@ body {
   transform: translateY(-2px);
   box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
+@media (max-width: 768px) {
+  .cta-buttons {
+    justify-content: center;
+  }
+}
